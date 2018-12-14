@@ -1,0 +1,12 @@
+/*
+Theme Name: colormag-child
+Theme URI:localhost/greef
+Desctiption: This is a child theme of colormag
+Author:lion
+Template: colormag
+body {
+	background:red !important;
+version: 2.0
+*/
+@import url("../colormag/style.css");
+}

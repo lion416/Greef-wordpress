@@ -1,0 +1,20 @@
+.et_pb_image_wrap {
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: translateZ(0) scale(1.0, 1.0);
+
+}
+.et_pb_image_wrap img {
+	vertical-align: bottom;
+	-webkit-transition: -webkit-transtorm 0.5s ease;
+	-moz-transition: -moz-transform 0.5s ease;
+	-o-transition: -o-transform 0.5s ease;
+	transition: transform 0.5s ease;
+}
+.et_pb_image_wrap img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
